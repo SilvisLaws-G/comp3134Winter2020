@@ -1,0 +1,31 @@
+1. What is the definition of server port?
+
+In computer networking, a port is a communication endpoint. Physical as well as wireless connections are terminated at ports of hardware devices. At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service. Ports are identified for each protocol and address combination by 16-bit unsigned numbers, commonly known as the port number. The most common protocols that use port numbers are the Transmission Control Protocol (TCP) and the User Datagram Protocol (UDP).
+
+A port number is always associated with an IP address of a host and the protocol type of the communication. It completes the destination or origination network address of a message. Specific port numbers are commonly reserved to identify specific services, so that an arriving packet can be easily forwarded to a running application. For this purpose, the lowest numbered 1024 port numbers identify the historically most commonly used services, and are called the well-known port numbers. Higher-numbered ports are available for general use by applications and are known as ephemeral ports.
+
+When used as a service enumeration, ports provide a multiplexing service for multiple services or multiple communication sessions at one network address. In the client–server model of application architecture multiple simultaneous communication sessions may be initiated for the same service.
+
+2.What is server port range?
+
+A port number is a 16-bit unsigned integer, thus ranging from 0 to 65535. 0 through 63 assign to network-wide standard functions, 64 through 127 assign to host-specific functions, 128 through 239 assign to reserved for future use, 240 through 255 assign to any experimental function.
+
+3. How many bits does number above represent?
+The largest number can be represented with 8 bits is 11111111, or 255 in decimal notation.
+
+4. State 10 common server ports
+20	File Transfer Protocol (FTP) Data Transfer
+21	File Transfer Protocol (FTP) Command Control
+22	Secure Shell (SSH) Secure Login
+23	Telnet remote login service, unencrypted text messages
+25	Simple Mail Transfer Protocol (SMTP) E-mail routing
+53	Domain Name System (DNS) service
+67, 68	Dynamic Host Configuration Protocol (DHCP)
+80	Hypertext Transfer Protocol (HTTP) used in the World Wide Web
+110	Post Office Protocol (POP3)
+119	Network News Transfer Protocol (NNTP)
+123	Network Time Protocol (NTP)
+143	Internet Message Access Protocol (IMAP) Management of digital mail
+161	Simple Network Management Protocol (SNMP)
+194	Internet Relay Chat (IRC)
+443	HTTP Secure (HTTPS) HTTP over TLS/SSL
